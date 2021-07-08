@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#body{
+	background-color:black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main {
+    background-color: #000000;
+    margin-bottom: 120px;
+}
+
+#header {
+    padding: 38px 0;
+	margin-bottom:100px;
+    border-bottom: 1px solid #262626;
+}
+
+#logo {
+    float: left;
+}
+
+#logo img {
+    width: 100%;
+    height: auto;
+}
+
+#menu {
+    display: none;
+    padding-top: 8px;
+    float: right;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    #menu {
+        display: block;
+        text-align: right;
+        margin-top: 0;
+    }
+}
+
+#menu li {
+    display: inline-block;
+    margin-right: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    #menu li {
+        width: auto;
+        text-align: right;
+    }
+}
+
+@media (min-width: 1200px) {
+    #menu li {
+        margin-right: 58px;
+    }
+}
+
+#menu li:last-child {
+    margin-right: 0;
+}
+
+#menu li a {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+#menu-toggle {
+    float: right;
+    display: inline-block;
+    width: 30px;
+    margin-right: 15px;
+}
+
+@media (min-width: 768px) {
+    #menu-toggle {
+        display: none;
+    }
+}
+
+#menu-toggle .line {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    margin-bottom: 2px;
+}
+
+li {
+    margin-bottom: 30px;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #171717;
+    background-color: rgba(255, 255, 255, 0.85);
+    transition: opacity 0.3s linear;
+}
+
+.inner:hover .overlay {
+    opacity: 1;
+}
+
+.overlay h3 {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.overlay p {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.inner {
+    position: relative;
+    overflow: hidden
+}
+
+
+
+
+#footer-top {
+    padding-top: 68px;
+    padding-bottom: 106px;
+    color: #fff;
+    text-align: center;
+}
+
+#footer-top p {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 19px;
+    text-transform: uppercase;
+}
+
+#footer-top ul li {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    margin-right: 7px;
+}
+
+#footer-top ul li:last-child { margin-right: 0; }
+
+#footer-bottom {
+    
+    padding-top: 28px;
+    padding-bottom: 52px;
+    color: #ffffff;
+    text-align: center;
+}
